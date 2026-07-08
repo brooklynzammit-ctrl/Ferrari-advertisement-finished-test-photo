@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari SF90 Stradale & 488 Pista - Ultimate Luxury Supercars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-horse"></i> FERRARI
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#sf90" class="nav-link">SF90 STRADALE</a></li>
+                <li><a href="#pista" class="nav-link">488 PISTA</a></li>
+                <li><a href="#comparison" class="nav-link">COMPARE</a></li>
+                <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                <li><a href="#contact" class="nav-link">RESERVE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">ITALIAN EXCELLENCE</div>
+            <h1 class="hero-title">PURE PERFORMANCE<br><span class="highlight-text">PURE PASSION</span></h1>
+            <p class="hero-subtitle">Experience the pinnacle of automotive engineering with Ferrari's most advanced supercars</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">986</span>
+                    <span class="stat-label">HP (SF90)</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">2.5s</span>
+                    <span class="stat-label">0-100 km/h</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">340</span>
+                    <span class="stat-label">km/h Top Speed</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('sf90')">SF90 STRADALE</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('pista')">488 PISTA</button>
+            </div>
+            <div class="scroll-indicator">
+                <p>SCROLL TO EXPLORE</p>
+                <div class="mouse-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SF90 Stradale Section -->
+    <section id="sf90" class="car-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Ferrari SF90 Stradale</h2>
+                <p class="section-subtitle">The Evolution of Hybrid Performance</p>
+            </div>
+            <div class="car-showcase">
+                <div class="car-image-container">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b83ad38?w=1200&h=800&fit=crop&q=80" alt="Ferrari SF90 Stradale" class="car-image" loading="lazy">
+                    <div class="image-badge">HYBRID HYPERCAR</div>
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-content">
+                    <p class="car-intro">
+                        The SF90 Stradale represents the future of Ferrari. With an innovative plug-in hybrid powertrain combining a turbocharged V8 engine and three electric motors, it delivers an unprecedented 986 horsepower. This is not merely a supercar—it's a technological revolution on four wheels.
+                    </p>
+                    
+                    <!-- Key Stats -->
+                    <div class="car-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Power Output</span>
+                                <span class="stat-number">986 hp</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">0-100 km/h</span>
+                                <span class="stat-number">2.5s</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-gauge-high"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Top Speed</span>
+                                <span class="stat-number">340 km/h</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-dollar-sign"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Starting Price</span>
+                                <span class="stat-number">$600K</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Details -->
+                    <div class="technical-details">
+                        <h3>TECHNICAL SPECIFICATIONS</h3>
+                        <div class="specs-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Engine Type</span>
+                                <span class="spec-value">4.0L Twin-Turbo V8 + Electric Motors</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Maximum Torque</span>
+                                <span class="spec-value">900 Nm (663 lb-ft)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Transmission</span>
+                                <span class="spec-value">8-Speed DCT</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Electric Range</span>
+                                <span class="spec-value">25 km on Electric Power</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value">1,570 kg</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">0-200 km/h</span>
+                                <span class="spec-value">7.0 seconds</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Why Buy -->
+                    <div class="why-buy">
+                        <h3>WHY CHOOSE SF90 STRADALE?</h3>
+                        <div class="benefits-grid">
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-leaf"></i></div>
+                                <h4>Eco-Conscious Performance</h4>
+                                <p>Pure electric driving for up to 25 km with zero emissions. Performance meets sustainability.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-rocket"></i></div>
+                                <h4>Hybrid Innovation</h4>
+                                <p>Revolutionary tri-motor system delivers unmatched acceleration and efficiency.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-crown"></i></div>
+                                <h4>F1 Technology</h4>
+                                <p>Direct transfer of Formula 1 expertise and innovations to your hands.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-microchip"></i></div>
+                                <h4>Advanced AI</h4>
+                                <p>Intelligent driving modes that adapt to your driving style in real-time.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
+                                <h4>Cutting-Edge Safety</h4>
+                                <p>Comprehensive driver assistance systems for ultimate confidence and control.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-star"></i></div>
+                                <h4>Exclusive Ownership</h4>
+                                <p>Ultra-limited production ensures you own one of the world's rarest hypercars.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-large" onclick="scrollToSection('contact')">RESERVE SF90 STRADALE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 488 Pista Section -->
+    <section id="pista" class="car-section alt-bg">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Ferrari 488 Pista</h2>
+                <p class="section-subtitle">Racing Spirit, Road Perfection</p>
+            </div>
+            <div class="car-showcase reverse">
+                <div class="car-image-container">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692f0b60d?w=1200&h=800&fit=crop&q=80" alt="Ferrari 488 Pista" class="car-image" loading="lazy">
+                    <div class="image-badge">TRACK-DERIVED SUPERCAR</div>
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-content">
+                    <p class="car-intro">
+                        The 488 Pista is pure racing perfection. Derived directly from Ferrari's victorious 488 GTE race car, every component has been engineered for raw speed and precision handling. With 710 horsepower from a naturally aspirated V8, it's the ultimate expression of Ferrari's racing philosophy on public roads.
+                    </p>
+                    
+                    <!-- Key Stats -->
+                    <div class="car-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Power Output</span>
+                                <span class="stat-number">710 hp</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">0-100 km/h</span>
+                                <span class="stat-number">2.9s</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-gauge-high"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Top Speed</span>
+                                <span class="stat-number">340 km/h</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-dollar-sign"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Starting Price</span>
+                                <span class="stat-number">$280K</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Details -->
+                    <div class="technical-details">
+                        <h3>TECHNICAL SPECIFICATIONS</h3>
+                        <div class="specs-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Engine Type</span>
+                                <span class="spec-value">3.9L Twin-Turbo V8 Engine</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Maximum Torque</span>
+                                <span class="spec-value">770 Nm (568 lb-ft)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Transmission</span>
+                                <span class="spec-value">7-Speed DCT</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fuel Type</span>
+                                <span class="spec-value">Premium Gasoline</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value">1,395 kg</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">0-200 km/h</span>
+                                <span class="spec-value">7.6 seconds</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Why Buy -->
+                    <div class="why-buy">
+                        <h3>WHY CHOOSE 488 PISTA?</h3>
+                        <div class="benefits-grid">
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                                <h4>Race-Proven Excellence</h4>
+                                <p>Direct technology transfer from Ferrari's championship-winning GTE race program.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-wind"></i></div>
+                                <h4>Lightweight Design</h4>
+                                <p>Carbon fiber and advanced materials for optimal power-to-weight ratio and agility.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-car"></i></div>
+                                <h4>Pure Handling</h4>
+                                <p>Advanced suspension and aerodynamics deliver precision cornering at every curve.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-music"></i></div>
+                                <h4>Iconic Engine Sound</h4>
+                                <p>The unmistakable roar of a naturally aspirated V8 that ignites the soul.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-palette"></i></div>
+                                <h4>Timeless Design</h4>
+                                <p>Ferrari's signature aerodynamic beauty that never goes out of style.</p>
+                            </div>
+                            <div class="benefit">
+                                <div class="benefit-icon"><i class="fas fa-crown"></i></div>
+                                <h4>Heritage Value</h4>
+                                <p>Investment potential with strong resale value among collectors worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-large" onclick="scrollToSection('contact')">RESERVE 488 PISTA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="comparison-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Side-by-Side Comparison</h2>
+                <p class="section-subtitle">Choose Your Perfect Ferrari</p>
+            </div>
+            <div class="comparison-grid">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>SPECIFICATION</th>
+                            <th class="sf90-col">SF90 STRADALE</th>
+                            <th class="pista-col">488 PISTA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="spec-category">Category</td>
+                            <td>Hybrid Hypercar</td>
+                            <td>Track-Derived Supercar</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Engine</td>
+                            <td>4.0L Twin-Turbo V8 Hybrid</td>
+                            <td>3.9L Twin-Turbo V8</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td class="spec-category">Horsepower</td>
+                            <td><span class="winner">986 hp</span></td>
+                            <td>710 hp</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Torque</td>
+                            <td>900 Nm</td>
+                            <td>770 Nm</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td class="spec-category">0-100 km/h</td>
+                            <td><span class="winner">2.5 seconds</span></td>
+                            <td>2.9 seconds</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">0-200 km/h</td>
+                            <td>7.0 seconds</td>
+                            <td>7.6 seconds</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Top Speed</td>
+                            <td>340 km/h</td>
+                            <td>340 km/h</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Electric Range</td>
+                            <td>25 km</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Weight</td>
+                            <td>1,570 kg</td>
+                            <td>1,395 kg</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td class="spec-category">Starting Price</td>
+                            <td>$600,000</td>
+                            <td><span class="winner">$280,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class="spec-category">Best For</td>
+                            <td>Tech & Hybrid Innovation</td>
+                            <td>Pure Racing Performance</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">Stunning views of luxury in motion</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b83ad38?w=600&h=400&fit=crop&q=80" alt="SF90 Stradale Front View" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>SF90 Stradale</h4>
+                        <p>Hybrid Innovation</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692f0b60d?w=600&h=400&fit=crop&q=80" alt="488 Pista Profile" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>488 Pista</h4>
+                        <p>Pure Performance</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&h=400&fit=crop&q=80" alt="Ferrari Detail" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Precision</h4>
+                        <p>Handcrafted Excellence</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552633820-8727b6b5db9d?w=600&h=400&fit=crop&q=80" alt="Ferrari Interior" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Luxury Interior</h4>
+                        <p>Premium Craftsmanship</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516921497294-1257029b0cb2?w=600&h=400&fit=crop&q=80" alt="Ferrari Rear View" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Italian Design</h4>
+                        <p>Timeless Beauty</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552872082-0e10b8f9dbed?w=600&h=400&fit=crop&q=80" alt="Ferrari Night" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Night Drive</h4>
+                        <p>Pure Elegance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Ferrari Section -->
+    <section class="why-ferrari">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Why Own a Ferrari?</h2>
+                <p class="section-subtitle">Join the most exclusive automotive community in the world</p>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-crown"></i></div>
+                    <h3>75+ Years of Excellence</h3>
+                    <p>Legendary heritage dating back to 1947. Ferrari isn't just a brand—it's a symbol of automotive perfection and Italian passion.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>F1 Dominance</h3>
+                    <p>With 16 Formula 1 World Championships, Ferrari's DNA runs through every car we build on the road.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Unmatched Performance</h3>
+                    <p>0-100 km/h in under 3 seconds. Experience acceleration that challenges the laws of physics.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Handcrafted Luxury</h3>
+                    <p>Every Ferrari is individually assembled by master craftsmen in Maranello, Italy with meticulous attention to detail.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-star"></i></div>
+                    <h3>Exclusive Ownership</h3>
+                    <p>Limited production runs ensure true exclusivity. You won't see another Ferrari like yours on the road.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-building"></i></div>
+                    <h3>Investment Class</h3>
+                    <p>Ferraris are tangible investments. Limited availability and high demand maintain exceptional resale values.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Reservation Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Reserve Your Ferrari</h2>
+                <p class="section-subtitle">Take the first step toward your dream supercar experience</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>FERRARI HEADQUARTERS</h3>
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Via Abetone, 2/4<br>Maranello, Modena 41053<br>Italy</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+39 536 949111</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sales@ferrari.com</p>
+                        </div>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>www.ferrari.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="reservation-form" id="reservationForm">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="">Select Your Preferred Model</option>
+                        <option value="SF90">SF90 Stradale - $600,000</option>
+                        <option value="488">488 Pista - $280,000</option>
+                        <option value="both">Interested in Both Models</option>
+                    </select>
+                    <textarea placeholder="Additional Information (Optional)" rows="5"></textarea>
+                    <button type="submit" class="btn btn-primary btn-large">SUBMIT RESERVATION</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Ferrari</h4>
+                    <p>Ferrari is the world's only luxury performance sports car manufacturer. Since 1947, we have crafted legendary vehicles that combine extraordinary performance with Italian design and luxury.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#sf90">SF90 Stradale</a></li>
+                        <li><a href="#pista">488 Pista</a></li>
+                        <li><a href="#comparison">Compare Models</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Ferrari</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ferrari S.p.A. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
